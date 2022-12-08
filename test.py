@@ -29,6 +29,8 @@ else:
 
 uv_list=[uvStatus,uvScore]
 
+print("s322323451234")
+
 @app.route('/')
 def home():
     return render_template('index.html')
